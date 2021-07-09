@@ -1,0 +1,15 @@
+.left-part {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    .image {
+        img {
+            border-radius: 50%;
+            width: 100%;
+            height: auto;
+        }
+    }
+    .title {
+        font-size: 0.9em;
+    }
+}

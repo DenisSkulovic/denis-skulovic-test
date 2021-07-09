@@ -1,0 +1,31 @@
+.details-container {
+    .name, .name input {
+        font-size: 1.0em;
+        font-weight: 900;
+        .form-control {
+            height: 30px !important;
+        }
+    }
+
+    .location, .location input {
+        font-size: 0.8em;
+        .form-control {
+            height: 25px !important;
+        }
+    }
+    .company-name, .company-name input {
+        font-weight: 900;
+        font-size: 0.9em;
+        .form-control {
+            height: 28px !important;
+        }
+    }
+    .company-address1, .company-address2, .phone,
+    .company-address1 input, .company-address2 input, .phone input {
+        font-size: 0.9em;
+        .form-control {
+            height: 20px !important;
+        }
+    }
+
+}
